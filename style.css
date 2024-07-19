@@ -1,0 +1,52 @@
+h1 {
+    color: red;
+}
+
+div p {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+#pink {
+    color: pink;
+}
+
+section > p {
+    color: violet;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+h4 + p {
+    color: green;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+span ~ p {
+    color: chocolate;
+}
+
+a[href*="google"] {
+    color: aquamarine;
+}
+
+a[href^="https://"] {
+    color: gold;
+}
+
+a[href$=".ca/"] {
+    color: rgb(228, 27, 84);
+}
+
+.purple h5 {
+    color: purple;
+}
